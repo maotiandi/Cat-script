@@ -2972,11 +2972,11 @@ function redzlib:MakeWindow(Configs)
 
 	function Window:CloseBtn()
 		Window:Dialog({
-			Title = "Close",
-			Text = "You Want Close Ui?",
+			Title = "关闭",
+			Text = "确定要关闭脚本吗？",
 			Options = {
-				{"Confirm", function() ScreenGui:Destroy() end},
-				{"Cancel"}
+				{"确定", function() ScreenGui:Destroy() end},
+				{"取消"}
 			}
 		})
 	end
