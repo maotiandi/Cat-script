@@ -2210,7 +2210,7 @@ do
         createTreadmillToggle(item.name, item.cf)
     end
 end
-Tabs.AlienGym = Tabs.PlayerSection:Tab({ Title = "Alien Gym健身房", Icon = "atom" })
+Tabs.AlienGym = Tabs.PlayerSection:Tab({ Title = "外星人健身房", Icon = "atom" })
 do
     local Tab = Tabs.AlienGym
     local function createMachineToggle(name, cf, machineName)
@@ -2308,38 +2308,38 @@ do
         })
     end
     local liftFuncs = {
-        { name = "①Alien Bar Lift 1(250千)", cf = CFrame.new(-2216.64966, 52.8168793, -11220.4893, 0, 1.08151323e-34, 1, 1.05647555e-36, 1, -1.08151323e-34, -1, 1.05647555e-36, -0) },
-        { name = "②Alien Bar Lift 2(250千)", cf = CFrame.new(-2154.71094, 52.8190193, -11332.9111, 0.819254875, -1.80857954e-12, 0.573429585, 5.89915486e-13, 1, 2.31116168e-12, -0.573429585, -1.55515542e-12, 0.819254875) },
+        { name = "①外星酒吧电梯 1(250千)", cf = CFrame.new(-2216.64966, 52.8168793, -11220.4893, 0, 1.08151323e-34, 1, 1.05647555e-36, 1, -1.08151323e-34, -1, 1.05647555e-36, -0) },
+        { name = "②外星酒吧电梯 2(250千)", cf = CFrame.new(-2154.71094, 52.8190193, -11332.9111, 0.819254875, -1.80857954e-12, 0.573429585, 5.89915486e-13, 1, 2.31116168e-12, -0.573429585, -1.55515542e-12, 0.819254875) },
     }
     for idx, item in ipairs(liftFuncs) do
         createMachineToggle(item.name, item.cf, "Deadlift")
     end
     local benchFuncs = {
-        { name = "①Alien Bench 1(62.5千)", cf = CFrame.new(-2216.94458, 84.1581802, -10754.709, 0.92403996, 7.25476923e-08, -0.382295877, -8.12139191e-08, 1, -6.53215571e-09, 0.382295877, 3.70837192e-08, 0.92403996) },
-        { name = "②Alien Bench 2(125千)", cf = CFrame.new(-2167.18823, 84.1529388, -10644.1904, 0.895121992, -5.35230393e-09, -0.445821285, -3.76645826e-09, 1, -1.95678052e-08, 0.445821285, 1.919474e-08, 0.895121992) },
-        { name = "③Alien Bench 3(250千)", cf = CFrame.new(-2046.31384, 84.1483078, -10616.2412, 0.48175174, -6.34214956e-08, -0.876307726, 9.53984127e-08, 1, -1.99280912e-08, 0.876307726, -7.3997974e-08, 0.48175174) },
+        { name = "①外星长椅 1(62.5千)", cf = CFrame.new(-2216.94458, 84.1581802, -10754.709, 0.92403996, 7.25476923e-08, -0.382295877, -8.12139191e-08, 1, -6.53215571e-09, 0.382295877, 3.70837192e-08, 0.92403996) },
+        { name = "②外星长椅 2(125千)", cf = CFrame.new(-2167.18823, 84.1529388, -10644.1904, 0.895121992, -5.35230393e-09, -0.445821285, -3.76645826e-09, 1, -1.95678052e-08, 0.445821285, 1.919474e-08, 0.895121992) },
+        { name = "③外星长椅 3(250千)", cf = CFrame.new(-2046.31384, 84.1483078, -10616.2412, 0.48175174, -6.34214956e-08, -0.876307726, 9.53984127e-08, 1, -1.99280912e-08, 0.876307726, -7.3997974e-08, 0.48175174) },
     }
     for idx, item in ipairs(benchFuncs) do
         createMachineToggle(item.name, item.cf, "Bench Press")
     end
     local squatFuncs = {
-        { name = "①Alien Squat 1(125千)", cf = CFrame.new(-1603.33679, 52.8019028, -11326.9961, -0.998595417, 0, -0.0529830977, 0, 1, 0, 0.0529830977, 0, -0.998595417) },
-        { name = "②Alien Squat 2(125千)", cf = CFrame.new(-1511.64111, 52.7975121, -11282.3213, -0.68245542, -8.24743935e-08, 0.730927229, -8.24999944e-08, 1, 3.58063339e-08, -0.730927229, -3.58652628e-08, -0.68245542) },
-        { name = "③Alien Squat 3(312.5千)", cf = CFrame.new(-1490.97559, 52.7935524, -11188.7051, 0.374024808, 1.48040264e-08, 0.927418709, 1.48072532e-08, 1, -2.19343281e-08, -0.927418709, 2.19365059e-08, 0.374024808) },
+        { name = "①外星人深蹲 1(125千)", cf = CFrame.new(-1603.33679, 52.8019028, -11326.9961, -0.998595417, 0, -0.0529830977, 0, 1, 0, 0.0529830977, 0, -0.998595417) },
+        { name = "②外星人深蹲 2(125千)", cf = CFrame.new(-1511.64111, 52.7975121, -11282.3213, -0.68245542, -8.24743935e-08, 0.730927229, -8.24999944e-08, 1, 3.58063339e-08, -0.730927229, -3.58652628e-08, -0.68245542) },
+        { name = "③外星人深蹲 3(312.5千)", cf = CFrame.new(-1490.97559, 52.7935524, -11188.7051, 0.374024808, 1.48040264e-08, 0.927418709, 1.48072532e-08, 1, -2.19343281e-08, -0.927418709, 2.19365059e-08, 0.374024808) },
     }
     for idx, item in ipairs(squatFuncs) do
         createMachineToggle(item.name, item.cf, "Squat Rack")
     end
     local throwFuncs = {
-        { name = "Alien Boulder(187.5千)", cf = CFrame.new(-2061.31763, 52.8154984, -11314.2607, 0.86607182, 0, -0.499919623, 0, 1, 0, 0.499919623, 0, 0.86607182) },
+        { name = "外星巨石(187.5千)", cf = CFrame.new(-2061.31763, 52.8154984, -11314.2607, 0.86607182, 0, -0.499919623, 0, 1, 0, 0.499919623, 0, 0.86607182) },
     }
     for idx, item in ipairs(throwFuncs) do
         createMachineToggle(item.name, item.cf, "Deadlift")
     end
     local treadmillFuncs = {
-        { name = "①Alien Treadmill 1(50千)", cf = CFrame.new(-1601.46338, 64.8113708, -10615.1094, -0.988528371, 9.56467261e-09, -0.151035443, 1.19025749e-08, 1, -1.45751242e-08, 0.151035443, -1.62056342e-08, -0.988528371) },
-        { name = "②Alien Treadmill 2(50千)", cf = CFrame.new(-1504.79492, 64.8083801, -10650.293, -0.846906245, 9.68903446e-09, -0.531742275, 1.30727233e-08, 1, -2.59963584e-09, 0.531742275, -9.15296727e-09, -0.846906245) },
-        { name = "③Alien Treadmill 3(50千)", cf = CFrame.new(-1459.31921, 64.8118591, -10757.8213, -0.0198461544, 2.89750474e-10, -0.999803066, 6.76230405e-10, 1, 2.7638436e-10, 0.999803066, -6.70612066e-10, -0.0198461544) },
+        { name = "①外星跑步机 1(50千)", cf = CFrame.new(-1601.46338, 64.8113708, -10615.1094, -0.988528371, 9.56467261e-09, -0.151035443, 1.19025749e-08, 1, -1.45751242e-08, 0.151035443, -1.62056342e-08, -0.988528371) },
+        { name = "②外星跑步机 2(50千)", cf = CFrame.new(-1504.79492, 64.8083801, -10650.293, -0.846906245, 9.68903446e-09, -0.531742275, 1.30727233e-08, 1, -2.59963584e-09, 0.531742275, -9.15296727e-09, -0.846906245) },
+        { name = "③外星跑步机 3(50千)", cf = CFrame.new(-1459.31921, 64.8118591, -10757.8213, -0.0198461544, 2.89750474e-10, -0.999803066, 6.76230405e-10, 1, 2.7638436e-10, 0.999803066, -6.70612066e-10, -0.0198461544) },
     }
     for idx, item in ipairs(treadmillFuncs) do
         createTreadmillToggle(item.name, item.cf)
@@ -2516,6 +2516,65 @@ do
             end)
         end
     end)
+    local autoEatEggCallback
+    Tab:Toggle({
+        Title = "自动吃蛋",
+        Default = false,
+        Callback = function(s)
+            autoEatEggCallback(s)
+        end
+    })
+    local autoEatEgg = false
+    autoEatEggCallback = function(s)
+        autoEatEgg = s
+        if s then
+            task.spawn(function()
+                while autoEatEgg do
+                    pcall(function()
+                        local player = Players.LocalPlayer
+                        local hasBuff = false
+                        local boostFolder = player:FindFirstChild("boostTimersFolder")
+                        if boostFolder and boostFolder:FindFirstChild("Protein Egg") then
+                            hasBuff = true
+                        end
+                        if hasBuff then return end
+                        local char = player.Character
+                        if not char then return end
+                        local hum = char:FindFirstChildOfClass("Humanoid")
+                        if not hum then return end
+                        local egg = player.Backpack:FindFirstChild("Protein Egg")
+                        if not egg and getnilinstances then
+                            for _, obj in ipairs(getnilinstances()) do
+                                if obj.Name == "Protein Egg" and obj:IsA("Tool") then
+                                    egg = obj
+                                    break
+                                end
+                            end
+                        end
+                        if not egg then return end
+                        hum:EquipTool(egg)
+                        task.wait(0.2)
+                        if player:FindFirstChild("muscleEvent") then
+                            player.muscleEvent:FireServer("proteinEgg", egg)
+                        end
+                        task.wait(0.1)
+                        if egg.Parent == char then
+                            pcall(function() egg:Activate() end)
+                        end
+                        task.wait(0.1)
+                        local consumables = player:FindFirstChild("consumablesFolder")
+                        if consumables then
+                            local eggEntry = consumables:FindFirstChild("Protein Egg")
+                            if eggEntry and player:FindFirstChild("muscleEvent") then
+                                player.muscleEvent:FireServer("proteinEgg", eggEntry)
+                            end
+                        end
+                    end)
+                    task.wait(1)
+                end
+            end)
+        end
+    end
     local customSpeedValue = 16
     local autoLockSpeed = false
     Tab:Input({
@@ -3040,6 +3099,65 @@ do
                 end
             end
         end)
+    end
+    local autoEatEggCallback
+    Tab:Toggle({
+        Title = "自动吃蛋",
+        Default = false,
+        Callback = function(s)
+            autoEatEggCallback(s)
+        end
+    })
+    local autoEatEgg = false
+    autoEatEggCallback = function(s)
+        autoEatEgg = s
+        if s then
+            task.spawn(function()
+                while autoEatEgg do
+                    pcall(function()
+                        local player = Players.LocalPlayer
+                        local hasBuff = false
+                        local boostFolder = player:FindFirstChild("boostTimersFolder")
+                        if boostFolder and boostFolder:FindFirstChild("Protein Egg") then
+                            hasBuff = true
+                        end
+                        if hasBuff then return end
+                        local char = player.Character
+                        if not char then return end
+                        local hum = char:FindFirstChildOfClass("Humanoid")
+                        if not hum then return end
+                        local egg = player.Backpack:FindFirstChild("Protein Egg")
+                        if not egg and getnilinstances then
+                            for _, obj in ipairs(getnilinstances()) do
+                                if obj.Name == "Protein Egg" and obj:IsA("Tool") then
+                                    egg = obj
+                                    break
+                                end
+                            end
+                        end
+                        if not egg then return end
+                        hum:EquipTool(egg)
+                        task.wait(0.2)
+                        if player:FindFirstChild("muscleEvent") then
+                            player.muscleEvent:FireServer("proteinEgg", egg)
+                        end
+                        task.wait(0.1)
+                        if egg.Parent == char then
+                            pcall(function() egg:Activate() end)
+                        end
+                        task.wait(0.1)
+                        local consumables = player:FindFirstChild("consumablesFolder")
+                        if consumables then
+                            local eggEntry = consumables:FindFirstChild("Protein Egg")
+                            if eggEntry and player:FindFirstChild("muscleEvent") then
+                                player.muscleEvent:FireServer("proteinEgg", eggEntry)
+                            end
+                        end
+                    end)
+                    task.wait(1)
+                end
+            end)
+        end
     end
     local customSpeedValue = 16
     local autoLockSpeed = false
@@ -5136,14 +5254,14 @@ do
         task.wait(0.5)
     end
     local alienBossStatusPara = Tab:Paragraph({
-        Title = "Alien Boss状态",
+        Title = "外星头目状态",
         Desc = "检测中...",
     })
     task.spawn(function()
         while true do
             pcall(function()
                 if getAlienBoss() then
-                    alienBossStatusPara:SetDesc("Alien Boss 已出现！")
+                    alienBossStatusPara:SetDesc("外星头目 已出现！")
                 else
                     alienBossStatusPara:SetDesc("当前地图未检测到Alien Boss")
                 end
@@ -5154,7 +5272,7 @@ do
     local autoAlienBoss = false
     local autoAlienBossThread = nil
     Tab:Toggle({
-        Title = "自动击杀Alien Boss",
+        Title = "自动击杀外星头目",
         Default = false,
         Callback = function(state)
             autoAlienBoss = state
@@ -5260,7 +5378,7 @@ Tabs.Pet = Tabs:Create("宠物", "cat")
 do
     local Tab = Tabs.Pet
     local crystalMap = {
-        ["Alien Crystal"] = "Alien Crystal",
+        ["外星水晶"] = "Alien Crystal",
         ["Zero Degrees Crystal"] = "Zero Degrees Crystal",
         ["神圣水晶"] = "Hallowed Crystal",
         ["工业水晶"] = "Industrial Crystal",
@@ -5278,8 +5396,8 @@ do
     local autoOpen = false
     Tab:Dropdown({
         Title = "选择水晶",
-        Values = { "Alien Crystal", "Zero Degrees Crystal", "神圣水晶", "工业水晶", "丛林水晶", "银河甲骨文水晶", "力量精英水晶", "传奇水晶", "狱火水晶", "神话水晶", "冰霜水晶", "绿色水晶", "蓝色水晶" },
-        Default = "Alien Crystal",
+        Values = { "外星水晶", "Zero Degrees Crystal", "神圣水晶", "工业水晶", "丛林水晶", "银河甲骨文水晶", "力量精英水晶", "传奇水晶", "狱火水晶", "神话水晶", "冰霜水晶", "绿色水晶", "蓝色水晶" },
+        Default = "外星水晶",
         Callback = function(val)
             selectedCrystal = crystalMap[val]
         end
@@ -5396,7 +5514,19 @@ do
         ["等离子掠夺者"] = "Plasma Ravager",
         ["反应堆兽"] = "Reactor Beast",
         ["顶峰霸主"] = "Apex Overlord",
-        ["糖果方块"] = "Candy Cube"
+        ["糖果方块"] = "Candy Cube",
+        ["日蚀巨龙"] = "Eclipse Wyrm",
+        ["轨道凝胶"] = "Orbit Jelly",
+        ["星云之蛾"] = "Nebula Moth",
+        ["相位螳螂"] = "Phase Mantis",
+        ["裂缝九头蛇"] = "Rift Hydra",
+        ["孢子兽"] = "Spore Beast",
+        ["Rime Fox"] = "Rime Fox",
+        ["Tuskfrost"] = "Tuskfrost",
+        ["Polaris Owl"] = "Polaris Owl",
+        ["Glacier Lynx"] = "Glacier Lynx",
+        ["Tricefrost Hydra"] = "Tricefrost Hydra",
+        ["Aurora Sovereign"] = "Aurora Sovereign"
     }
     local shopPetValues = {
         "橙色刺猬", "红色小猫", "蓝色小鸟", "蓝色小兔", "黑暗德古拉",
@@ -5411,16 +5541,30 @@ do
         "白色凤凰", "绿色释火者", "魔法蝴蝶", "超级小鸟", "黑暗风暴",
         "永恒打击利维坦", "雷击幻影", "暗星猎人",
         "黄金维金人", "肌肉老师", "霓虹守护者",
-        "终极超新星飞马", "黑暗蝎尾怪传奇", "幻影创世龙", "冰波传奇企鹅", "以太仙灵小兔", "赛博对决龙", "核心小狗", "伏特爪", "等离子掠夺者", "反应堆兽", "顶峰霸主", "伏特狼", "核心魔像", "等离子凝霜", "碎片龙",  "浪涌老虎", "新星凤凰", "糖果方块"
+        "终极超新星飞马", "黑暗蝎尾怪传奇", "幻影创世龙", "冰波传奇企鹅", "以太仙灵小兔", "赛博对决龙", "核心小狗", "伏特爪", "等离子掠夺者", "反应堆兽", "顶峰霸主",
+        "日蚀巨龙", "轨道凝胶", "星云之蛾", "相位螳螂", "裂缝九头蛇", "孢子兽",
+        "Rime Fox", "Tuskfrost", "Polaris Owl", "Glacier Lynx", "Tricefrost Hydra", "Aurora Sovereign"
     }
-    local selectedShopPet = "Orange Hedehog"
+    local selectedShopPet = "Orange Hedgehog"
     local autoBuyPet = false
+
+    local crystalPools = {
+        ["Alien Crystal"] = {"Eclipse Wyrm", "Orbit Jelly", "Nebula Moth", "Phase Mantis", "Rift Hydra", "Spore Beast"},
+        ["Zero Degrees Crystal"] = {"Rime Fox", "Tuskfrost", "Polaris Owl", "Glacier Lynx", "Tricefrost Hydra", "Aurora Sovereign"}
+    }
+    local petToCrystal = {}
+    for cName, pList in pairs(crystalPools) do
+        for _, pName in ipairs(pList) do
+            petToCrystal[pName] = cName
+        end
+    end
+
     Tab:Dropdown({
         Title = "选择宠物/光环",
         Values = shopPetValues,
         Default = "橙色刺猬",
         Callback = function(val)
-            selectedShopPet = petShopMap[val]
+            selectedShopPet = petShopMap[val] or selectedShopPet
         end
     })
     Tab:Toggle({
@@ -5430,11 +5574,41 @@ do
             autoBuyPet = s
             if s then
                 task.spawn(function()
+                    local lastPet = nil
                     while autoBuyPet do
                         pcall(function()
-                            tryBuyShopPet(selectedShopPet)
+                            local crystalName = petToCrystal[selectedShopPet]
+                            if crystalName then
+                                local rEvents = ReplicatedStorage:WaitForChild("rEvents")
+                                local openCrystal = rEvents:FindFirstChild("openCrystalRemote")
+                                if openCrystal then
+                                    if lastPet ~= selectedShopPet then
+                                        lastPet = selectedShopPet
+                                        local sellList = {}
+                                        for _, p in ipairs(crystalPools[crystalName]) do
+                                            if p ~= selectedShopPet then
+                                                sellList[p] = true
+                                            end
+                                        end
+                                        openCrystal:InvokeServer(
+                                            "saveAutoSell",
+                                            crystalName,
+                                            {
+                                                Pets = sellList,
+                                                Enabled = true,
+                                                Auras = {}
+                                            }
+                                        )
+                                    end
+                                    openCrystal:InvokeServer("openCrystalBulk", crystalName, 10)
+                                end
+                                task.wait(0.1)
+                            else
+                                lastPet = nil
+                                tryBuyShopPet(selectedShopPet)
+                                task.wait()
+                            end
                         end)
-                        task.wait()
                     end
                 end)
             end
@@ -5592,6 +5766,18 @@ do
         ["Legendary Aura"] = "传奇光环",
         ["Mythic Aura"] = "神话光环",
         ["Zeus Spark"] = "宙斯火花",
+        ["Eclipse Wyrm"] = "日蚀巨龙",
+        ["Lunar Slug"] = "月球蜗牛",
+        ["Nebula Moth"] = "星云之蛾",
+        ["Orbit Jelly"] = "轨道凝胶",
+        ["Phase Mantis"] = "相位螳螂",
+        ["Rift Hydra"] = "裂缝九头蛇",
+        ["Spore Beast"] = "孢子兽",
+        ["Cosmic Invader"] = "宇宙入侵者",
+        ["UFO Bot"] = "不明飞行机器人",
+        ["Alien Slime"] = "外星史莱姆",
+        ["Mothership Reactor"] = "母舰反应堆",
+        ["Galactic Overlord"] = "银河霸主"
     }
     local function getDisplayName(itemInstance)
         if not itemInstance then return "" end
